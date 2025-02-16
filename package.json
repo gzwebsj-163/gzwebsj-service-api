@@ -1,0 +1,40 @@
+{
+  "name": "gzwebsj-router",
+  "version": "0.0.1",
+  "description": "轻量级微服务 @ Email://gzwebsj@163.com",
+  "main": "index.ts",
+  "scripts": {
+    "service": "tsc index.ts && node index.js && cd code && make"
+  },
+  "author": "gzwebsj",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.15.0",
+    "axios": "^1.7.4",
+    "crypto": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "jimp": "^0.22.12",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.0",
+    "node-cache": "^5.1.2",
+    "redis": "^4.7.0",
+    "sequelize-auto": "^0.8.8",
+    "typescript": "^5.5.4",
+    "undici-types": "^6.19.2"
+  },
+  "dependencies": {
+    "abort": "^1.0.2",
+    "ip": "^2.0.1",
+    "krash": "^0.1.3",
+    "nacos": "^2.6.0",
+    "node-addon-api": "^8.3.0",
+    "readme_create": "^0.0.1"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": []
+}

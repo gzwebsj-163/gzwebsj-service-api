@@ -1,0 +1,16 @@
+{
+  "name": "gzwebsj-uniapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gzwebsj.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+   "build": "node-gyp build",
+    "dev": "node gzwebsj.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "gypfile": true
+}
